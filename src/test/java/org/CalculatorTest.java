@@ -29,4 +29,10 @@ public class CalculatorTest {
 		Calculator obj=new Calculator();
 		assertEquals(20,obj.findMax(10, 20));
 	}
+	@Test
+	public void testequals()	
+	{
+		Calculator obj=new Calculator();
+		assertEquals(true,obj.findequals(10, 10));
+	}
 }
